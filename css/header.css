@@ -13,10 +13,15 @@ header {
   display: inline-block;
 }
 
-nav{
-  display: none;
-}
-
 .navigation-menu {
   margin-top: 24px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  
+}
+
+nav{
+  display: none;
 }
