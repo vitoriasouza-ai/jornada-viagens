@@ -1,20 +1,20 @@
 @font-face {
-  font-family: "montserrat";
-  src: url(fonts/Montserrat-variablefont_wght.ttf);
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Regular.ttf) ;
   font-style: normal;
   font-display: swap;
 }
 
 :root {
-  --butoon-primary-color: #8f0101;
-  --butoon-secondary-color: #b81515;
+  --primary-color: #8f0101;
+  --secondary-color: #b81515;
 
-  --background-primary-color: #ffff;
+  --background-primary-color: #ffffff;
   --background-secondary-color: #f5f5f5;
   --background-tertiary-color: #000000;
 
   --text-primary-color: #222222;
-  --text-secondary-color: #ffff;
+  --text-secondary-color: #ffffff;
 
   --title-weight: 700;
   --text-weight: 400;
@@ -36,4 +36,8 @@ button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
 }
