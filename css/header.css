@@ -14,10 +14,10 @@ header {
   display: inline-block;
 }
 
-.logo-mobile {
+.img-mobile {
   display: block;
 }
-.logo-desktop {
+.img-desktop {
   display: none;
 }
 
@@ -76,27 +76,26 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header{
+  header {
     padding: 38px 120px;
   }
-  .logo{
+  .logo {
     width: 260px;
     height: 64px;
   }
-  .img-desktop{
+  .img-desktop {
     display: block;
   }
-  .img-mobile{
+  .img-mobile {
     display: none;
   }
-  .navigation-menu a:hover{
+  .navigation-menu a:hover {
     color: var(--primary-color);
   }
 }
 
 @media screen and (min-width: 1920px) {
-  header{
+  header {
     padding: 38px 160px;
   }
-  
 }
