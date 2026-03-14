@@ -53,6 +53,27 @@
 .card.manaus{
   background-image: url(../img/bg-card-manaus.jpg) no-repeat;
   background-size: cover;
+  background-image: url(../img/bg-card-japao.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card.san-andreas{
+  background-image: url(../img/bg-card-san-andreas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card.paraiba{
+  background-image: url(../img/bg-card-paraiba.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card.manaus{
+  background-image: url(../img/bg-card-manaus.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 1024px) {
