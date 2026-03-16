@@ -42,7 +42,7 @@
 }
 
 .card.japao{
-  background-image: url(../img/bg-card-japao.jpg) no-repeat;
+  background: url(../img/bg-card-japao.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -80,7 +80,6 @@
 
 @media screen and (min-width: 760px) {
   .offers-cards {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
