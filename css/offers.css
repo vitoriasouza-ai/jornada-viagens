@@ -45,23 +45,6 @@
   background-size: cover;
 }
 
-.offers-cards .card.san-andreas{
-  background-image: url(../img/bg-card-san-andreas.jpg) no-repeat;
-  background-size: cover;
-}
-
-.offers-cards .card.paraiba{
-  background-image: url(../img/bg-card-paraiba.jpg) no-repeat;
-  background-size: cover;
-}
-
-.offers-cards .card.manaus{
-  background-image: url(../img/bg-card-manaus.jpg) no-repeat;
-  background-size: cover;
-  background-image: url(../img/bg-card-japao.jpg);
-  background-size: cover;
-}
-
 .offers-cards .card.san-andreas {
   background: url(../img/bg-card-san-andreas.jpg) no-repeat;
   background-size: cover;
@@ -79,7 +62,6 @@
 
 @media screen and (min-width: 768px) {
   .offers-cards {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -92,7 +74,7 @@
     height: 308px;
   }
   .offers-cards .card header h3 {
-    font-size: 48px;
+    font-size: 42px;
   }
 
   .offers-cards .card header span {
